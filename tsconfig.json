@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, // Allow JavaScript files
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "checkJs": false, // Disable type checking in JavaScript files
+    "strict": false, // Disable all strict type-checking options
+    "noImplicitAny": false, // Allow variables with implicit 'any' type
+    "noImplicitThis": false, // Allow 'this' with implicit 'any' type
+    "alwaysStrict": false, // Disable always strict mode
+    "strictBindCallApply": false, // Disable strict 'bind', 'call', and 'apply' methods
+    "strictNullChecks": false, // Disable strict null checks
+    "strictFunctionTypes": false, // Disable strict function types
+    "strictPropertyInitialization": false, // Disable strict property initialization
+    "forceConsistentCasingInFileNames": true, // Maintain consistent casing
+    "noEmitOnError": false, // Allow emitting files even if there are errors
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@@/*": [
+        "./*"
+      ]
+    },
+    "noEmit": true // Prevent emitting output files
+  },
+  "include": [
+    "src",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/relationship/blogs/[]/[...slug]/layout.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
