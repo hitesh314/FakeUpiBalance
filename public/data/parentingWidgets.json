@@ -1,0 +1,60 @@
+[
+    {
+        "id": "2",
+        "surveyImage": "/images/babyNames.svg",
+        "surveyTitle": "Baby Name Finder",
+        "compatibilityTitle": "Looking for baby name ideas, advice, meanings, and popularity? You'll find everything you need",
+        "redirectUrl": "/baby-names",
+        "isAvailable": true,
+        "surveyPrimaryColor": "#FF7596",
+        "slug": "baby-names"
+    },
+    {
+        "id": "3",
+        "surveyImage": "/images/dueDateCalculator.svg",
+        "surveyTitle": "Due Date Calculator",
+        "compatibilityTitle": "Looking for baby name ideas, advice, meanings, and popularity? You'll find everything you need",
+        "redirectUrl": "/due-date-calculator",
+        "isAvailable": true,
+        "surveyPrimaryColor": "#FF7596",
+        "slug": "due-date-calculator"
+    },
+    {
+        "id": "4",
+        "surveyImage": "/images/chineseGenderPredictor.svg",
+        "surveyTitle": "Chinese Gender Predictor",
+        "compatibilityTitle": "Looking for baby name ideas, advice, meanings, and popularity? You'll find everything you need",
+        "redirectUrl": "/chinese-gender-predictor",
+        "surveyPrimaryColor": "#FF7596",
+        "isAvailable": true,
+        "slug": "chinese-gender-predictor"
+    },
+    {
+        "id": "5",
+        "surveyImage": "/images/babyheight.svg",
+        "surveyTitle": "Pregnancy Weight Tracker",
+        "compatibilityTitle": "Track and manage your weight with personalized insights and recommendations.",
+        "redirectUrl": "/weight-calculator",
+        "surveyPrimaryColor": "#FF7596",
+        "isAvailable": true,
+        "slug": "weight-calculator"
+    },
+    {
+        "id": "6",
+        "surveyImage": "/images/twinbabycalculator.svg",
+        "surveyTitle": "Twin baby predictor",
+        "compatibilityTitle": "Take the guesswork of having single or twins babies",
+        "redirectUrl": "/twin-baby-calculator",
+        "isAvailable": true,
+        "surveyPrimaryColor": "#FF7596"
+    },
+    {
+        "id": "7",
+        "surveyImage": "/images/breastfeeding.svg",
+        "surveyTitle": "Breastfeeding Weight Loss Calculator",
+        "compatibilityTitle": "Determine your caloric needs while breastfeeding",
+        "redirectUrl": "/breastfeeding-calculator",
+        "isAvailable": true,
+        "surveyPrimaryColor": "#FF7596"
+    }
+]

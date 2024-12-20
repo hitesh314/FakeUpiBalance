@@ -1,0 +1,139 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px 480px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 32px;
+}
+
+.loadFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.analyseInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.submitButton {
+    display: flex;
+    padding: 16px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #0E8E72;
+    cursor: pointer;
+}
+
+.submitButtonText {
+    color: var(--Background-White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-height: 32px;
+}
+
+.progressBar {
+    display: flex;
+    height: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.progressBarInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 176px;
+    background: var(--Inactive-Light, #E3E3E3);
+}
+
+.progressBarRectangle {
+    flex: 1 0 0;
+    border-radius: 176px;
+    background: #0E8E72;
+}
+
+.transactionMessage {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.image {
+    height: 480px;
+    width: 480px;
+}
+
+@media(max-width: 721px) {
+    .main {
+        padding: 0px 32px;
+        gap: 16px;
+    }
+
+    .loadFrame {
+        gap: 16px;
+    }
+
+    .analyseInformation {
+        gap: 16px;
+    }
+
+    .submitButton {
+        padding: 8px;
+        border-radius: 8px;
+        gap: 8px;
+    }
+
+    .submitButtonText {
+        font-size: 16px;
+        max-height: none;
+    }
+
+    .progressBar {
+        height: 16px;
+        gap: 8px;
+    }
+
+    .progressBarInfo {
+        gap: 8px;
+    }
+
+    .progressBarRectangle {
+        border-radius: 88px;
+    }
+
+    .transactionMessage {
+        font-size: 24px;
+    }
+
+    .image {
+        height: 240px;
+        width: 240px;
+    }
+}

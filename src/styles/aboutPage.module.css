@@ -1,0 +1,67 @@
+.aboutPage {
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sectionList {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.sectionItem {
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+
+.sectionHeadingH1 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sectionHeading {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.subSection {
+    color: #5C5A5A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (min-width: 768px) {
+    .aboutPage {
+        padding: 0px 32px;
+        gap: 32px;
+    }
+
+    .subSection {
+        font-size: 16px;
+    }
+
+    .sectionHeading {
+        font-size: 20px;
+    }
+
+    .sectionHeadingH1 {
+        font-size: 32px;
+    }
+
+    .sectionHeadingH1::before {
+        content: ""
+    }
+}

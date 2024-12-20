@@ -1,0 +1,126 @@
+.bannerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 24px;
+    align-items: center;
+    gap: 80px;
+    border-radius: 16px;
+    margin: 16px 0px 0 0;
+}
+
+.bannerContainerDesktop {
+    height: Fixed (292px)px;
+    left: 16px;
+    padding: 40px 24px 40px 24px;
+    gap: 80px;
+    border-radius: 16px;
+    margin: 16px;
+    background-image: url('/images/bannerHomepgeBackground.jpg');
+}
+
+.bannerFrame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.hrStyle {
+    height: 0px;
+    align-self: stretch;
+    border: 0.5px solid #D9D9D9;
+    width: 100%;
+    margin: 0px;
+}
+
+.subContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    align-self: stretch;
+}
+
+.contentHead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.contentHeadTitle {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contentHeadTitleLoveCpty {
+    color: var(--survey-primary-color, #fff);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.startSurveyButton {
+    display: flex;
+    width: 176px;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--survey-primary-color, #fff);
+    border-radius: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bannerImages {
+    max-width: 220px;
+    max-height: 220px;
+}
+
+@media(max-width : 720px) {
+
+    .bannerContainerDesktop {
+        gap: 24px
+    }
+
+    .bannerFrame {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px
+    }
+
+    .bannerImages {
+        max-width: 168px;
+        max-height: 168px;
+    }
+
+    .bannerSurveyImage {
+        display: none;
+    }
+
+    .startSurveyButton {
+        width: 100%;
+        padding: 8px 24px;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    .contentSection {
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+.modal {
+  z-index: 999;
+  position: fixed;
+  padding: 136px 468px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 100;
+}
+
+.modalContent {
+  background: white;
+  border-radius: 16px;
+  position: relative;
+}
+
+@media (max-width: 720px) {
+  .modal {
+    display: flex;
+    padding: 0;
+    overflow: auto;
+    gap: 10px;
+  }
+}

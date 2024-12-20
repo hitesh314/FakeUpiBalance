@@ -1,0 +1,49 @@
+/* Mobile adjustment is done */
+
+.timerContainer {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    gap: 8px;
+    padding: 8px;
+}
+
+.timerText {
+    display: flex;
+    align-items: center;
+    color: #0E8E72;
+    font-weight: 500;
+    font-size: 16px;
+    gap: 8px;
+}
+
+.counterText {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media(max-width:720px) {
+    /* .timerContainer {} */
+
+    .timerText {
+        color: var(--Button, #0E8E72);
+        /* font-family: Poppins; */
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .counterText {
+        color: var(--Placeholder-Icon, #1E1E1E);
+        text-align: right;
+        /* font-family: Poppins; */
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

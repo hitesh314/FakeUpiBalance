@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Thank You For Filling Out The Survey !",
+    "image": "/images/thankYouForSurvey.svg",
+    "progressBarStatus": 0,
+    "showSubmitButton": false
+  },
+  {
+    "title": "Analysing Responses",
+    "image": "/images/progressBegins.svg",
+    "progressBarStatus": 25,
+    "showSubmitButton": false
+  },
+  {
+    "title": "Preparing Results",
+    "image": "/images/progress50.svg",
+    "progressBarStatus": 50,
+    "showSubmitButton": false
+  },
+  {
+    "title": "Wrapping Up...",
+    "image": "/images/progress70.svg",
+    "progressBarStatus": 75,
+    "showSubmitButton": false
+  },
+  {
+    "title": "Ready To Go",
+    "image": "/images/progress100.svg",
+    "progressBarStatus": 100,
+    "showSubmitButton": false
+  },
+  {
+    "title": "Hurray !! You’re All Set",
+    "image": "/images/progressComplete.svg",
+    "progressBarStatus": 0,
+    "showSubmitButton": true
+  }
+]

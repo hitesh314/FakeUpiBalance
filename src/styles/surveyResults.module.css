@@ -1,0 +1,263 @@
+.resultsContainer {
+    display: flex;
+    padding: 0px 64px 56px 64px;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.headerText {
+    display: flex;
+    gap: 24px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.hrStyle {
+    border-top: 1px solid #E3E3E3;
+    margin: 0;
+    width: 100%;
+}
+
+.resultBox {
+    height: fit-content;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+    width: 628px;
+    border-radius: 16px;
+    border: 1px solid #D9D9D9;
+    padding: 0px 0px 24px 0px;
+}
+
+.strongCompatibilityHeader {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    height: 112px;
+}
+
+.satisfactionBox {
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: #E6F1EF;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.satisfactionText {
+    font-size: 20px;
+    text-align: left;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: right;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.recommendationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 621px;
+}
+
+.recommendationHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0E8E72;
+}
+
+.recommendBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+    align-self: stretch;
+}
+
+.recommendationList {
+    text-align: left;
+    margin: 0px;
+    font-weight: 400;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shareButton {
+    display: flex;
+    width: 100%;
+    background-color: #0E8E72;
+    gap: 24px;
+    justify-content: center;
+    color: #ffffff;
+    padding: 16px 8px;
+    border-radius: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.resultsDisplay {
+    display: flex;
+    gap: 32px;
+}
+
+.image {
+    /* overflow: hidden; */
+    /* max-height: 360px; */
+    height: 100%;
+    width: auto;
+}
+
+@media (max-width: 721px) {
+    .resultsContainer {
+        display: flex;
+        width: fit-content;
+        padding: 0px 16px 24px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .satisfactionBox {
+        width: 90%;
+        display: flex;
+        padding: 16px 24px;
+        align-items: center;
+        align-self: auto;
+        font-size: 12;
+    }
+
+    .satisfactionText {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .image {
+        height: 100%;
+        width: auto;
+    }
+
+    .resultBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+        width: 100%;
+    }
+
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .headerText {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .hrStyle {
+        height: 1px;
+        align-self: stretch;
+        border: 0;
+        border-top: 1px solid #E3E3E3;
+        width: 100%;
+    }
+
+    .resultsDisplay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .shareButton {
+        width: 90%;
+        box-sizing: border-box;
+        font-weight: 400;
+        line-height: normal;
+        gap: 16px;
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    .recommendationContainer {
+        width: 100%;
+        gap: 16px;
+    }
+
+    .recommendationHeader {
+        color: #0E8E72;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 100%;
+    }
+
+    .recommendBottom {
+        gap: 24px;
+        width: 100%;
+        align-items: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .recommendationList {
+        font-size: 12px;
+        font-style: normal;
+        gap: 16px;
+    }
+
+    .strongCompatibilityHeader {
+        padding: 8px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        width: 100%;
+        height: 56px;
+    }
+}

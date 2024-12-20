@@ -1,0 +1,154 @@
+.container {
+    border-radius: 16px;
+    padding: 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.hrStyle {
+    width: 100%;
+    border-top: 1px solid #E3E3E3;
+    margin: 0;
+}
+
+.list {
+    font-size: 16px;
+    text-align: left;
+    color: #989797;
+    margin: 0px;
+    padding-left: 16px;
+    font-weight: 400;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkboxContainer {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    justify-content: center;
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+    color: #0E8E72;
+    background-color: #E3E3E3;
+    border-radius: 4px;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #989797;
+}
+
+.startButton {
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    background-color: #0E8E72;
+    color: #ffffff;
+    border-radius: 16px;
+    max-height: 64px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.image {
+    width: 320px;
+    height: 320px;
+}
+
+@media(max-width: 721px) {
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container {
+        width: 296px;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+
+    .title {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .list {
+        font-size: 12px;
+        text-align: left;
+        color: #989797;
+        margin: 0px;
+        /* padding-left: 16px; */
+        font-weight: 400;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkbox {
+        size: 8px;
+    }
+
+    .checkboxLabel {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .startButton {
+        font-size: 12px;
+        border-radius: 8px;
+        display: flex;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        /* align-self: stretch; */
+    }
+}

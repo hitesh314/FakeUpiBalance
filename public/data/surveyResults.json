@@ -1,0 +1,479 @@
+[
+  {
+    "surveyResultID": 0,
+    "detailImageURL": "/images/WaitingForPartnerApproval.svg",
+    "bannerColor": "#B1B5B7",
+    "compatibilityTitle": "Waiting For Partner Response",
+    "recommendations": [
+      "Please ensure your partner completes their survey. After submission, check your email or refresh this page for recommendations. If nothing updates immediately, it may take a few moments"
+    ]
+  },
+  {
+    "surveyResultID": 1,
+    "detailImageURL": "/images/surveyResultsWeek.svg",
+    "bannerColor": "#E04000",
+    "compatibilityTitle": "Potential Challenges",
+    "recommendations": [
+      "Work together to address areas of tension or disagreement through compromise and understanding.",
+      "Invest in strengthening communication skills and resolving conflicts constructively.",
+      "Consider seeking relationship counseling or support to navigate challenges and enhance compatibility."
+    ]
+  },
+  {
+    "surveyResultID": 2,
+    "detailImageURL": "/images/surveyResultsModerate.svg",
+    "bannerColor": "#E0D500",
+    "compatibilityTitle": "Moderate Compatability",
+    "recommendations": [
+      "Work together to address areas of tension or disagreement through compromise and understanding.",
+      "Invest in strengthening communication skills and resolving conflicts constructively.",
+      "Consider seeking relationship counseling or support to navigate challenges and enhance compatibility."
+    ]
+  },
+  {
+    "surveyResultID": 3,
+    "detailImageURL": "/images/surveyResultsGood.svg",
+    "bannerColor": "#03A800",
+    "compatibilityTitle": "Strong Compatability",
+    "recommendations": [
+      "Focus on maintaining healthy communication patterns.",
+      "Nurture emotional intimacy.",
+      "Prioritize shared goals and aspirations for the future.",
+      "Explore opportunities for personal and relational growth through mutual support and understanding."
+    ]
+  },
+  {
+    "surveyResultID": 4,
+    "detailImageURL": "/images/surveyResultLust.svg",
+    "bannerColor": "#450051",
+    "compatibilityTitle": "EROS: Romantic Love",
+    "recommendations": [
+      "Eros is characterized by intense passion and physical attraction between partners.",
+      "It is often driven by strong emotional and sexual desire, creating a deep, passionate connection.",
+      "Eros is typically focused on romance, with a sense of idealization of the partner and the relationship.",
+      "It can be intense and all-consuming, often dominating the thoughts and emotions of those involved.",
+      "There is a strong physical element in Eros, where touch, affection, and closeness are central.",
+      "Eros love can be spontaneous and impulsive, with partners often swept away by their emotions and desires."
+    ]
+  },
+  {
+    "surveyResultID": 5,
+    "detailImageURL": "/images/surveyResultPassion.svg",
+    "bannerColor": "#F07A7A",
+    "compatibilityTitle": "Ludus: Playful Love",
+    "recommendations": [
+      "Playfulness is central, with partners engaging in teasing and light-hearted behavior.",
+      "Ludus focuses on a lack of seriousness, avoiding deep emotional involvement.",
+      "Flirting is a key element, often involving witty conversations and charming gestures.",
+      "Multiple partners may be involved, as there’s no expectation of exclusivity or commitment.",
+      "Youthful and carefree in nature, this love type prioritizes fun and the enjoyment of the moment.",
+      "Low levels of jealousy, as Ludic lovers are often more open and accepting of non-exclusivity."
+    ]
+  },
+  {
+    "surveyResultID": 6,
+    "detailImageURL": "/images/surveyResultLove.svg",
+    "bannerColor": "#AD1457",
+    "compatibilityTitle": "Pragma: Enduring Love",
+    "recommendations": [
+      "Pragma is a practical and long-lasting love that focuses on mutual respect and shared goals.",
+      "It develops over time, often found in relationships where both partners are committed to long-term partnership.",
+      "Decision-making in Pragma often involves logic and practicality, prioritizing stability over passion.",
+      "There is a strong sense of partnership, where both individuals work together to achieve common life goals.",
+      "Compromise and understanding are key elements, as the relationship is built on cooperation and patience.",
+      "Pragma often involves deep trust and loyalty, where both partners rely on each other for emotional and practical support."
+    ]
+  },
+  {
+    "surveyResultID": 7,
+    "detailImageURL": "/images/secureAttachmentAttachmentStyleSurvey.svg",
+    "bannerColor": "#03A800",
+    "compatibilityTitle": "Secure Attachment",
+    "recommendations": [
+      "Low Attachment-Related Anxiety and Avoidance scores.",
+      "Comfortable with intimacy and dependency, able to trust others and maintain healthy relationships."
+    ]
+  },
+  {
+    "surveyResultID": 8,
+    "detailImageURL": "/images/anxiousAttachmentAttachmentSurvey.svg",
+    "bannerColor": "#CF95B8",
+    "compatibilityTitle": "Anxious  Attachment",
+    "recommendations": [
+      "High Attachment-Related Anxiety scores and l ow Attachment-Related Avoidance scores",
+      "Fearful of abandonment, seeks reassurance and validation from partners, experiences heightened emotional reactions to relationship issues."
+    ]
+  },
+  {
+    "surveyResultID": 9,
+    "detailImageURL": "/images/avoidentDimmisiveAttachmentAttachmentSurvey.svg",
+    "bannerColor": "#4B0082",
+    "compatibilityTitle": "Avoidant-Dismissive Attachment",
+    "recommendations": [
+      "Low Attachment-Related Anxiety scores and high Attachment-Related Avoidance scores.",
+      "Prefers independence, discomfort with emotional closeness, may avoid or downplay relationship issues."
+    ]
+  },
+  {
+    "surveyResultID": 10,
+    "detailImageURL": "/images/disorganisedAttachmentAttachmentStyleSurvey.svg",
+    "bannerColor": "#4B4B4B",
+    "compatibilityTitle": "Disorganized Attachment",
+    "recommendations": [
+      "High scores on both Attachment-Related Anxiety and Avoidance.",
+      "Conflicted feelings about intimacy, difficulty trusting others, may exhibit unpredictable behaviors in relationships."
+    ]
+  },
+  {
+    "surveyResultID": 11,
+    "detailImageURL": "/images/lowRiskPostPartumDepressionSurvey.svg",
+    "bannerColor": "#03A800",
+    "compatibilityTitle": "Low risk of postpartum depression",
+    "recommendations": [
+      "Continue with healthy lifestyle habits such as balanced nutrition, regular exercise, and mindfulness practices.",
+      "Maintain open communication with your partner, family, and healthcare provider to ensure ongoing emotional support.",
+      "Stay informed and attend regular postpartum check-ups to monitor overall well-being."
+    ]
+  },
+  {
+    "surveyResultID": 12,
+    "detailImageURL": "/images/mediumRiskPostPartumDepressionSurvey.svg",
+    "bannerColor": "#E0D500",
+    "compatibilityTitle": "Moderate risk of postpartum depression",
+    "recommendations": [
+      "Consider reaching out to a mental health professional to discuss potential concerns and coping strategies.",
+      "Join a support group or community of new mothers to share experiences and reduce feelings of isolation.",
+      "Focus on self-care, including proper sleep, nutrition, and stress-reducing activities to help manage emotions."
+    ]
+  },
+  {
+    "surveyResultID": 13,
+    "detailImageURL": "/images/highRiskPostPartumDepressionSurvey.svg",
+    "bannerColor": "#E04000",
+    "compatibilityTitle": "High risk of postpartum depression",
+    "recommendations": [
+      "It’s important to seek help from a healthcare professional or therapist specializing in postpartum care as soon as possible.",
+      "Establish a strong support network of friends, family, and professionals who can provide assistance during challenging times.",
+      "Consider developing a postpartum care plan that includes mental health resources, child care support, and personal time for recovery."
+    ]
+  },
+  {
+    "surveyResultID": 14,
+    "detailImageURL": "/images/noNeedRelationshipCouncellingSurvey.svg",
+    "bannerColor": "#03A800",
+    "compatibilityTitle": "No Relationship Counseling Needed",
+    "description": "You have a strong and healthy relationship with no need for counseling at this time.",
+    "recommendations": [
+      "Continue to nurture your relationship through open communication and quality time.",
+      "Consider occasional check-ins with your partner to maintain this strong connection."
+    ]
+  },
+  {
+    "surveyResultID": 15,
+    "detailImageURL": "/images/moderateNeedRelationshipCouncellingSurvey.svg",
+    "bannerColor": "#E0D500",
+    "compatibilityTitle": "Moderate Need for Relationship Counseling",
+    "description": "There are some challenges in your relationship that might benefit from counseling.",
+    "recommendations": [
+      "Schedule regular conversations with your partner to address any concerns or stressors.",
+      "Consider seeking counseling for specific issues to strengthen your connection.",
+      "Engage in activities that promote bonding, such as date nights or shared hobbies."
+    ]
+  },
+  {
+    "surveyResultID": 16,
+    "detailImageURL": "/images/highNeedRelationshipCouncellingSurvey.svg",
+    "bannerColor": "#E04000",
+    "compatibilityTitle": "High Need for Relationship Counseling",
+    "description": "There are significant challenges in your relationship that may require professional support.",
+    "recommendations": [
+      "Seek professional relationship counseling to address deeper issues.",
+      "Work on developing healthier communication patterns with your partner.",
+      "Consider joining support groups or workshops that focus on relationship-building skills."
+    ]
+  },
+  {
+    "surveyResultID": 17,
+    "detailImageURL": "/images/enneagram1.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Reformer",
+    "description": "Principled, purposeful, self-controlled, and perfectionistic.",
+    "recommendations": [
+      "Embrace flexibility and allow yourself to make mistakes.",
+      "Practice self-compassion and reduce self-criticism.",
+      "Engage in creative activities to balance your structured nature."
+    ]
+  },
+  {
+    "surveyResultID": 18,
+    "detailImageURL": "/images/enneagram2.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Helper",
+    "description": "Generous, demonstrative, people-pleasing, and possessive.",
+    "recommendations": [
+      "Set healthy boundaries to avoid overextending yourself.",
+      "Focus on your own needs and self-care practices.",
+      "Cultivate assertiveness in expressing your desires."
+    ]
+  },
+  {
+    "surveyResultID": 19,
+    "detailImageURL": "/images/enneagram3.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Achiever",
+    "description": "Adaptable, excelling, driven, and image-conscious.",
+    "recommendations": [
+      "Prioritize authenticity over image and external validation.",
+      "Take time to reflect on your true passions and interests.",
+      "Develop deeper emotional connections with others."
+    ]
+  },
+  {
+    "surveyResultID": 20,
+    "detailImageURL": "/images/enneagram4.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Individualist",
+    "description": "Expressive, dramatic, self-absorbed, and temperamental.",
+    "recommendations": [
+      "Engage in mindfulness practices to stay grounded.",
+      "Channel your creativity into constructive outlets.",
+      "Work on building resilience against emotional fluctuations."
+    ]
+  },
+  {
+    "surveyResultID": 21,
+    "detailImageURL": "/images/enneagram5.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Investigator",
+    "description": "Innovative, secretive, isolated, and insightful.",
+    "recommendations": [
+      "Foster social connections and engage in collaborative projects.",
+      "Balance your intellectual pursuits with physical activities.",
+      "Practice sharing your knowledge and insights with others."
+    ]
+  },
+  {
+    "surveyResultID": 22,
+    "detailImageURL": "/images/enneagram6.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Loyalist",
+    "description": "Committed, security-oriented, responsible, and anxious.",
+    "recommendations": [
+      "Develop trust in yourself and others to reduce anxiety.",
+      "Embrace uncertainty and practice adaptability.",
+      "Engage in activities that build confidence and self-reliance."
+    ]
+  },
+  {
+    "surveyResultID": 23,
+    "detailImageURL": "/images/enneagram7.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Enthusiast",
+    "description": "Spontaneous, versatile, acquisitive, and scattered.",
+    "recommendations": [
+      "Practice mindfulness to stay present in the moment.",
+      "Focus on completing tasks before moving on to new ones.",
+      "Cultivate deeper emotional connections and commitment."
+    ]
+  },
+  {
+    "surveyResultID": 24,
+    "detailImageURL": "/images/enneagram8.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Challenger",
+    "description": "Self-confident, decisive, willful, and confrontational.",
+    "recommendations": [
+      "Practice vulnerability and open up to others.",
+      "Develop patience and active listening skills.",
+      "Channel your strength into collaborative leadership."
+    ]
+  },
+  {
+    "surveyResultID": 25,
+    "detailImageURL": "/images/enneagram9.png",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "The Peacemaker",
+    "description": "Receptive, reassuring, complacent, and resigned.",
+    "recommendations": [
+      "Assert your own needs and desires more confidently.",
+      "Engage in activities that promote personal growth.",
+      "Embrace change and take proactive steps towards your goals."
+    ]
+  },
+  {
+    "surveyResultID": 26,
+    "detailImageURL": "/images/ISTJ.svg",
+    "bannerColor": "#FF7043",
+    "compatibilityTitle": "ISTJ",
+    "description": "Stability, reliability, practical support",
+    "recommendations": [
+      "Develop more flexibility in your approach to situations.",
+      "Enhance communication with others by sharing your thoughts more openly."
+    ]
+  },
+  {
+    "surveyResultID": 27,
+    "detailImageURL": "/images/ISFJ.svg",
+    "bannerColor": "#FFA726",
+    "compatibilityTitle": "ISFJ",
+    "description": "Nurturing, supportive, tradition-oriented",
+    "recommendations": [
+      "Take time to focus on your own needs.",
+      "Be open to new ideas and ways of doing things."
+    ]
+  },
+  {
+    "surveyResultID": 28,
+    "detailImageURL": "/images/INFJ.svg",
+    "bannerColor": "#66BB6A",
+    "compatibilityTitle": "INFJ",
+    "description": "Empathetic, idealistic, insightful",
+    "recommendations": [
+      "Set boundaries to protect your energy.",
+      "Balance your idealism with practical steps."
+    ]
+  },
+  {
+    "surveyResultID": 29,
+    "detailImageURL": "/images/INTJ.svg",
+    "bannerColor": "#42A5F5",
+    "compatibilityTitle": "INTJ",
+    "description": "Strategic, analytical, visionary",
+    "recommendations": [
+      "Engage with others' ideas more actively.",
+      "Allow yourself to take breaks and recharge."
+    ]
+  },
+  {
+    "surveyResultID": 30,
+    "detailImageURL": "/images/ISTP.svg",
+    "bannerColor": "#AB47BC",
+    "compatibilityTitle": "ISTP",
+    "description": "Adaptable, practical, problem-solver",
+    "recommendations": [
+      "Cultivate deeper emotional connections with others.",
+      "Balance action with reflection to avoid impulsiveness."
+    ]
+  },
+  {
+    "surveyResultID": 31,
+    "detailImageURL": "/images/ISFP.svg",
+    "bannerColor": "#26C6DA",
+    "compatibilityTitle": "ISFP",
+    "description": "Creative, sensitive, compassionate",
+    "recommendations": [
+      "Express your creativity without self-doubt.",
+      "Foster connections with people who appreciate your unique qualities."
+    ]
+  },
+  {
+    "surveyResultID": 32,
+    "detailImageURL": "/images/INFP.svg",
+    "bannerColor": "#EC407A",
+    "compatibilityTitle": "INFP",
+    "description": "Idealistic, empathetic, introspective",
+    "recommendations": [
+      "Set clear boundaries to avoid burnout.",
+      "Find outlets to express your idealism in practical ways."
+    ]
+  },
+  {
+    "surveyResultID": 33,
+    "detailImageURL": "/images/INTP.svg",
+    "bannerColor": "#FFCA28",
+    "compatibilityTitle": "INTP",
+    "description": "Analytical, curious, independent",
+    "recommendations": [
+      "Engage in social interactions to enhance your perspective.",
+      "Take action on your ideas rather than just contemplating them."
+    ]
+  },
+  {
+    "surveyResultID": 34,
+    "detailImageURL": "/images/ESTP.svg",
+    "bannerColor": "#66BB6A",
+    "compatibilityTitle": "ESTP",
+    "description": "Energetic, adventurous, spontaneous",
+    "recommendations": [
+      "Slow down and reflect on the consequences of your actions.",
+      "Cultivate deeper, lasting connections."
+    ]
+  },
+  {
+    "surveyResultID": 35,
+    "detailImageURL": "/images/ESFP.svg",
+    "bannerColor": "#42A5F5",
+    "compatibilityTitle": "ESFP",
+    "description": "Social, outgoing, enthusiastic",
+    "recommendations": [
+      "Develop patience and focus on long-term goals.",
+      "Seek out meaningful relationships and avoid superficial interactions."
+    ]
+  },
+  {
+    "surveyResultID": 36,
+    "detailImageURL": "/images/ENFP.svg",
+    "bannerColor": "#FFA726",
+    "compatibilityTitle": "ENFP",
+    "description": "Enthusiastic, imaginative, supportive",
+    "recommendations": [
+      "Stay committed to your goals, even when they become challenging.",
+      "Balance spontaneity with thoughtful planning."
+    ]
+  },
+  {
+    "surveyResultID": 37,
+    "detailImageURL": "/images/ENTP.svg",
+    "bannerColor": "#FF7043",
+    "compatibilityTitle": "ENTP",
+    "description": "Inventive, resourceful, enthusiastic",
+    "recommendations": [
+      "Listen carefully to others' perspectives.",
+      "Follow through with projects instead of jumping to new ideas too quickly."
+    ]
+  },
+  {
+    "surveyResultID": 38,
+    "detailImageURL": "/images/ESTJ.svg",
+    "bannerColor": "#AB47BC",
+    "compatibilityTitle": "ESTJ",
+    "description": "Efficient, organized, decisive",
+    "recommendations": [
+      "Be open to others' viewpoints and ideas.",
+      "Balance efficiency with empathy in leadership."
+    ]
+  },
+  {
+    "surveyResultID": 39,
+    "detailImageURL": "/images/ESFJ.svg",
+    "bannerColor": "#EC407A",
+    "compatibilityTitle": "ESFJ",
+    "description": "Nurturing, sociable, empathetic",
+    "recommendations": [
+      "Practice self-care to avoid overextending yourself.",
+      "Allow others to take care of you as well."
+    ]
+  },
+  {
+    "surveyResultID": 40,
+    "detailImageURL": "/images/ENFJ.svg",
+    "bannerColor": "#26C6DA",
+    "compatibilityTitle": "ENFJ",
+    "description": "Charismatic, empathetic, visionary",
+    "recommendations": [
+      "Delegate responsibilities to avoid burnout.",
+      "Encourage others to express their own ideas."
+    ]
+  },
+  {
+    "surveyResultID": 41,
+    "detailImageURL": "/images/ENTJ.svg",
+    "bannerColor": "#BA68C8",
+    "compatibilityTitle": "ENTJ",
+    "description": "Strategic, assertive, confident",
+    "recommendations": [
+      "Practice patience when working with others.",
+      "Balance assertiveness with empathy and understanding."
+    ]
+  }
+]

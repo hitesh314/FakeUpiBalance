@@ -1,0 +1,138 @@
+.container {
+    border-radius: 16px;
+    padding: 24px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.titleRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.closeButton {
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+.hrStyle {
+    width: 100%;
+    border-top: 1px solid #E3E3E3;
+    color: #E3E3E3;
+    margin: 0;
+}
+
+.description {
+    font-size: 16px;
+    text-align: center;
+}
+
+.highlightText {
+    color: #AD1457;
+    font-weight: 600;
+}
+
+.signInButton {
+    font-size: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    background-color: #0E8E72;
+    color: #ffffff;
+    border-radius: 8px;
+    max-height: 64px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.image {
+    width: 320px;
+    height: 320px;
+}
+
+.copyLinkContainer {
+    display: flex;
+    flex-direction: column;
+    color: #3D5A8080;
+    gap: 8px;
+}
+
+.linkShare {
+    background-color: #9D9D9D14;
+    /* border: 0.5px solid #E3E3E3; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.shareIconsContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+@media(max-width: 721px) {
+    .container {
+        width: 296px;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .header {
+        gap: 8px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .titleRow {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .highlightText {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .signInButton {
+        font-size: 12px;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+}

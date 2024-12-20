@@ -1,0 +1,12 @@
+@media(min-width:1280px) {
+    .mainScreen {
+        max-width: 1280px;
+    }
+}
+
+@media(min-width:720px) {
+    .mainScreen {
+        max-width: 720px;
+
+    }
+}

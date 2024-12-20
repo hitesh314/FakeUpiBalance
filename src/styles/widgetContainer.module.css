@@ -1,0 +1,243 @@
+.surveysGrid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-gap: 16px;
+  justify-content: space-between;
+  padding: 12px;
+  flex: 1;
+  /* margin: 0px 0px 32px 0px; */
+}
+
+.surveyCard {
+  /* background-color: #f7f7f7; */
+  width: 100%;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.tryNowButton {
+  display: flex;
+  text-decoration: none;
+  min-height: 16px !important;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  background-color: var(--survey-primary-color, #fff);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.widgetCardDetail {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.surveyImage {
+  width: 120px;
+  height: 72px;
+  position: relative;
+  overflow: hidden;
+}
+
+.availableWidgets {
+  border: 1px solid var(--survey-primary-color, #fff);
+  color: var(--survey-primary-color, #fff);
+}
+
+.bannerText {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.hrStyle {
+  height: 0px;
+  align-self: stretch;
+  border: 0.5px solid rgba(173, 20, 87, 0.1);
+  width: 100%;
+  margin: 0px;
+}
+
+.compatibilityTitle {
+  color: var(--survey-primary-color, #fff);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.compatibilityText,
+.surveyTime {
+  color: var(--Text-Primary, #000);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.compatibilityTitle,
+.compatibilityText,
+.surveyTime,
+.comingSoonBadge {
+  display: block;
+  text-align: left;
+}
+
+@media (min-width: 720px) and (max-width: 1280px) {
+  .surveysGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  .surveyCard {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+    justify-content: space-around;
+    width: 320px;
+    height: fit-content;
+  }
+}
+
+@media (min-width: 1280px) {
+  .surveyCard {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+    justify-content: space-around;
+    width: 352px;
+    height: fit-content;
+    min-height: 200px;
+  }
+
+  .widgetCardDetail {
+    flex-direction: row-reverse;
+  }
+
+  .surveysGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+
+  .compatibilityTitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .compatibilityText,
+  .surveyTime {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .bannerText {
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .comingSoon {
+    padding-top: 32px;
+    height: fit-content;
+    background: rgba(191, 223, 217, 0.35);
+  }
+
+  .healingImage {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+  }
+
+  .comingSoonBadge {
+    color: #0e8e72;
+  }
+
+  .surveyImage {
+    width: 112px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.surveyCard.comingSoon {
+  .tryNowButton {
+    background-color: #989797;
+  }
+
+  .compatibilityTitle,
+  .compatibilityText {
+    color: #5c5a5a;
+  }
+
+  .tryNowButton {
+    background-color: #989797;
+  }
+}
+
+.comingSoon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(191, 223, 217, 0.35);
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.comingSoonBadge {
+  content: none;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background-color: #0e8e72;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 12px;
+  z-index: 2;
+}
+
+.comingSoonBadge:after {
+  content: "";
+  position: absolute;
+  border: 10px solid #004738;
+  border-bottom: 0px;
+  border-bottom-width: 8px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  top: 27.5px;
+  left: 0px;
+  clip-path: inset(0 50% 0 0);
+}
